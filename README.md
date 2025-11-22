@@ -103,8 +103,8 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=ivanovmarcus0910&theme=onedark&row=1&column=6" />
 </p>
-
----
+##☕ Contact
+<p align="center"> <a href="mailto:your.email.here@example.com"> <img src="https://img.shields.io/badge/Email-Contact%20me-red?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <!-- Thay link LinkedIn/Facebook nếu muốn --> <!-- <a href="https://www.linkedin.com/in/..."> <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> --> </p> <p align="center"> <i>Nếu ông đọc tới đây rồi thì cứ mạnh dạn mở issue, gửi PR, hoặc rủ collab. Coffee + code luôn welcome. ☕💻</i> </p> 
 
 ## 🐍 Contribution Snake
 
@@ -112,3 +112,6 @@
 
 ```md
 ![snake gif](https://github.com/ivanovmarcus0910/ivanovmarcus0910/raw/output/github-contribution-grid-snake.svg)
+
+
+
