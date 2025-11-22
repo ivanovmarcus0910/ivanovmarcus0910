@@ -108,8 +108,6 @@
 
 ## 🐍 Contribution Snake
 
-> Sau khi setup GitHub Actions, contribution graph sẽ biến thành **con rắn ăn commit** 🐍
-
 ![snake gif](https://raw.githubusercontent.com/ivanovmarcus0910/ivanovmarcus0910/output/github-contribution-grid-snake.svg)
 
 
