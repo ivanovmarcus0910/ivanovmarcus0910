@@ -1,11 +1,13 @@
 name: Generate Snake
 
 on:
-  # Chạy mỗi ngày 1 lần
   schedule:
-    - cron: "0 0 * * *"
-  # Cho phép chạy tay từ tab Actions
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # chạy mỗi ngày lúc 00:00 UTC
+  workflow_dispatch:       # cho phép bấm Run workflow bằng tay
+
+# ⚠️ Quan trọng: cho phép GITHUB_TOKEN được quyền ghi
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -20,7 +22,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
 
       - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
